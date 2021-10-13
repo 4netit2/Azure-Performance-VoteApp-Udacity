@@ -86,7 +86,7 @@ else:
 
 # Redis Connection
 #r = redis.Redis()
- redis_server = os.environ['REDIS']
+redis_server = os.environ['REDIS']
 
    # Redis Connection to another container
    try:
